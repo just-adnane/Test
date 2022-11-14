@@ -1,0 +1,35 @@
+/* navbar */
+@font-face {
+    font-family: myFirstFont;
+    src: url(LemonMilk.otf);
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+nav .container{
+    font-family: myFirstFont;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 120px;
+    height: fit-content;
+}
+.logo img{
+    width: 100% !important;
+    height: auto;
+}
+nav a{
+    text-decoration: none;
+    margin-inline: 20px;
+    color: #F57120 !important;
+}
+nav .btn{
+    width: 120px;
+    background-color: #F57120;
+    border-radius: 5px;
+    color: white !important;
+}
+

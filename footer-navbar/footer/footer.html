@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../bootstarp/bootstrap.min.css">
+    <link rel="stylesheet" href="../aos/aos.css">
+    <link rel="stylesheet" href="../locomotive/locomotive-scroll.min.css">
+</head>
+<body >
+
+<!-- footer -->
+<footer   class="mb-0 mt-5 pt-4">
+    <div class="container">
+       <div class="row">
+
+           <div class="col-7 col-md-4">
+               <h4>DAWYA NATURE</h4>
+               <p>La nature a sa musique <br> pour qui sait l’écouter…</p>
+           </div>
+           <div class="col-5 col-md-4">
+               <h4>Liens utiles</h4>
+               <a href="">A propos</a> <br>
+               <a href="">BOUJMIL</a><br>
+               <a href="">Activités</a><br>
+               <a href="">Contact</a><br>
+           </div>
+           <div class="col-12 col-md-4 row">
+                <div class="col-7 col-md-12">
+                    <h4>Contact</h4>
+                    <p> ouedkoumdawya@gmail.com</p>
+                    <p>06 17 86 24 73</p>
+                </div>
+               <span class="col-5 col-md-12">
+                   <h4>Social</h4>
+                   <a href=""><img src="../img/icon-facebook.png" alt="Facebook-icon"> Facebook</a> 
+                   <a href=""><img src="../img/icon-instagram.png" alt="Instagram icon"> Instagram</a>
+                   <a href="Dawya- natures-experiences.ma">Social webSite</a>
+               </span>
+               
+           </div>
+           <div class="col-12 text-center pb-3">
+                <hr>
+               <p>© DAWYA NATURE |<a href=""> Mentions juridiques</a></p>
+           </div>
+       </div>
+    </div>
+</footer>
+
+
+    
+    <script src="../bootstarp/bootstrap.min.js"></script>
+    <script src="../locomotive/locomotive-scroll.min.js"></script>
+    <script src="../aos/aos.js"></script>
+    <script src="../aos.js"></script>
+    <script>
+         AOS.init( {
+        duration:1000
+        });
+        var test = new LocomotiveScroll({
+            el: document.querySelector('.sc'),
+            smooth:true,
+            lerp: 0.07,
+            smartphone: {
+                smooth:true
+            }
+        })
+    </script>
+</body>
+</html>
