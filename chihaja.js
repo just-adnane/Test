@@ -1,4 +1,4 @@
-function somme (a){
-  return a - a;
+function somme (a) {
+  return a - a
 }
-console.log(somme(10));
+somme(10)
